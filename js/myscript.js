@@ -7,7 +7,7 @@ app.controller('MyCtrl',($scope, $http) => {
 
     //this is contoller
     $scope.title = "Stay Home Stay Safe";
-
+    $scope.line="Stay home stay safe";
     console.log("APP Loaded");
 
     //calling api
@@ -49,4 +49,4 @@ app.controller('MyCtrl',($scope, $http) => {
 
 
      };
-})
+});
